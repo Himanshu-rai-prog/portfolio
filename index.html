@@ -1,12 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Himanshu Rai | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Himanshu Rai — Portfolio</title>
+<meta name="description" content="Himanshu Rai — I build practical data and AI projects that turn real-world problems into useful, understandable solutions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Himanshu Rai</h1>
-    <p>Portfolio coming soon.</p>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-mark" href="#home">Himanshu Rai</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <nav id="navLinks" class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HOME ============ -->
+  <section id="home" class="hero">
+    <div class="wrap">
+      <svg class="hero-mark" viewBox="0 0 120 40" aria-hidden="true">
+        <polyline points="0,30 20,30 28,10 36,34 44,4 52,30 120,30" />
+      </svg>
+      <h1 class="hero-name">Himanshu Rai</h1>
+      <p class="hero-claim">I build practical data and AI projects that turn real-world problems into useful, understandable solutions.</p>
+      <p class="hero-intro">
+        <!-- EDIT: 2–3 sentences on who you are right now — student status, what you're learning toward, what kind of problems you gravitate to. -->
+        [Add a short introduction here — a couple of sentences on where you are now and the kind of problems you like working on.]
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">See the projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="wrap about-grid">
+      <div class="about-photo">
+        <div class="photo-frame placeholder-box">
+          <p>Replace with a real professional photo</p>
+        </div>
+      </div>
+      <div class="about-body">
+        <p class="eyebrow-label">About</p>
+        <p>
+          <!-- EDIT: short profile paragraph -->
+          [Add a short profile paragraph — 3–4 sentences on your background and what draws you to data and AI work.]
+        </p>
+        <dl class="about-facts">
+          <div>
+            <dt>Education</dt>
+            <dd>[Add your degree, institution, and expected/graduation year]</dd>
+          </div>
+          <div>
+            <dt>Interests</dt>
+            <dd>[Add a few interests — technical or otherwise]</dd>
+          </div>
+          <div>
+            <dt>Direction</dt>
+            <dd>[Add a line on the kind of role or work you're aiming toward]</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section">
+    <div class="wrap">
+      <p class="eyebrow-label">Projects</p>
+      <h2 class="section-title">Case studies</h2>
+
+      <article class="project">
+        <div class="project-media placeholder-box">
+          <p>Replace with a real screenshot of Fake News Detection</p>
+        </div>
+        <div class="project-body">
+          <h3>Fake News Detection</h3>
+          <p class="project-summary">A machine-learning project focused on detecting potentially fake news.</p>
+          <div class="project-detail">
+            <div><span class="label">Problem</span><p>[Add the specific problem this project addressed — what made the news hard to verify?]</p></div>
+            <div><span class="label">Approach</span><p>[Add your approach — data source, preprocessing, model choice]</p></div>
+            <div><span class="label">Technology</span><p>[Add the stack — e.g. Python, scikit-learn, pandas]</p></div>
+            <div><span class="label">Result</span><p>[Add the outcome — accuracy, what you learned, what you'd improve]</p></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-media placeholder-box">
+          <p>Replace with a real screenshot of Student Performance Prediction</p>
+        </div>
+        <div class="project-body">
+          <h3>Student Performance Prediction</h3>
+          <p class="project-summary">A prediction project using student-related data to estimate performance.</p>
+          <div class="project-detail">
+            <div><span class="label">Problem</span><p>[Add the specific problem — what performance were you trying to predict, and why?]</p></div>
+            <div><span class="label">Approach</span><p>[Add your approach — features used, model, evaluation method]</p></div>
+            <div><span class="label">Technology</span><p>[Add the stack]</p></div>
+            <div><span class="label">Result</span><p>[Add the outcome and any insight it surfaced]</p></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-media placeholder-box">
+          <p>Replace with a real screenshot of Hangman</p>
+        </div>
+        <div class="project-body">
+          <h3>Hangman</h3>
+          <p class="project-summary">A Python project developed during the CodeAlpha internship.</p>
+          <div class="project-detail">
+            <div><span class="label">Problem</span><p>[Add what the internship task asked for]</p></div>
+            <div><span class="label">Approach</span><p>[Add how you structured the game logic]</p></div>
+            <div><span class="label">Technology</span><p>Python</p></div>
+            <div><span class="label">Result</span><p>[Add the outcome — working game, what you learned]</p></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-media placeholder-box">
+          <p>Replace with a real screenshot of the Chatbot</p>
+        </div>
+        <div class="project-body">
+          <h3>Chatbot</h3>
+          <p class="project-summary">A Python-based chatbot project developed during the CodeAlpha internship.</p>
+          <div class="project-detail">
+            <div><span class="label">Problem</span><p>[Add what the chatbot was meant to handle]</p></div>
+            <div><span class="label">Approach</span><p>[Add your approach — rule-based, NLP library, conversation flow]</p></div>
+            <div><span class="label">Technology</span><p>Python</p></div>
+            <div><span class="label">Result</span><p>[Add the outcome and what you learned]</p></div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-media placeholder-box">
+          <p>Replace with a real screenshot of the E-commerce App</p>
+        </div>
+        <div class="project-body">
+          <h3>E-commerce App</h3>
+          <p class="project-summary">Practical software project experience, presented here as a case study.</p>
+          <div class="project-detail">
+            <div><span class="label">Problem</span><p>[Add the problem the app solved]</p></div>
+            <div><span class="label">Approach</span><p>[Add your approach — features built, structure]</p></div>
+            <div><span class="label">Technology</span><p>[Add the stack]</p></div>
+            <div><span class="label">Result</span><p>[Add the outcome]</p></div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section">
+    <div class="wrap">
+      <p class="eyebrow-label">Skills</p>
+      <h2 class="section-title">Tools I work with</h2>
+      <ul class="skill-list">
+        <li>Python</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS / SCSS</li>
+        <li>Data Cleaning</li>
+        <li>Preprocessing</li>
+        <li>EDA</li>
+        <li>Machine Learning</li>
+        <li>AI</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section">
+    <div class="wrap">
+      <p class="eyebrow-label">Experience</p>
+      <h2 class="section-title">Practical learning</h2>
+      <div class="experience-item">
+        <div class="experience-head">
+          <h3>CodeAlpha — Internship</h3>
+          <span class="experience-meta">[Add dates]</span>
+        </div>
+        <p>[Add a short description of your CodeAlpha internship — what track, what you worked on, and how Hangman and the Chatbot fit into it.]</p>
+      </div>
+      <div class="experience-item">
+        <div class="experience-head">
+          <h3>[Add role or context]</h3>
+          <span class="experience-meta">[Add dates]</span>
+        </div>
+        <p>[Add a short description of your work on the E-commerce App, or any other practical experience you want to feature here.]</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact-section">
+    <div class="wrap">
+      <p class="eyebrow-label">Contact</p>
+      <h2 class="section-title">Let's talk</h2>
+      <p class="contact-lead">[Add a short line inviting people to reach out — about roles, collaboration, or projects.]</p>
+      <ul class="contact-list">
+        <li><a href="mailto:[email protected]">[email protected]</a></li>
+        <li><a href="https://linkedin.com/in/[your-handle]" target="_blank" rel="noopener">LinkedIn — [your-handle]</a></li>
+        <li><a href="https://github.com/[your-handle]" target="_blank" rel="noopener">GitHub — [your-handle]</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> Himanshu Rai</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
