@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <a class="skip-link" href="#main">Skip to content</a>
@@ -17,16 +18,19 @@
 <header class="site-nav">
   <div class="nav-inner">
     <a class="nav-mark" href="#home">Himanshu Rai</a>
+
     <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">
       <span></span><span></span><span></span>
       <span class="sr-only">Menu</span>
     </button>
+
     <nav id="navLinks" class="nav-links">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
+      <a href="#posts">Posts & Capstone</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -37,136 +41,327 @@
   <!-- ============ HOME ============ -->
   <section id="home" class="hero">
     <div class="wrap">
+
       <svg class="hero-mark" viewBox="0 0 120 40" aria-hidden="true">
         <polyline points="0,30 20,30 28,10 36,34 44,4 52,30 120,30" />
       </svg>
+
       <h1 class="hero-name">Himanshu Rai</h1>
-      <p class="hero-claim">I build practical data and AI projects that turn real-world problems into useful, understandable solutions.</p>
-      <p class="hero-intro">
-        <!-- EDIT: 2–3 sentences on who you are right now — student status, what you're learning toward, what kind of problems you gravitate to. -->
-       I am a B.Tech Computer Science student specializing in Data Science and Artificial Intelligence. I enjoy building practical projects using Python, machine learning, and data analysis to solve real-world problems.
+
+      <p class="hero-claim">
+        I build practical data and AI projects that turn real-world problems into useful, understandable solutions.
       </p>
+
+      <p class="hero-intro">
+        I am a B.Tech Computer Science student specializing in Data Science and Artificial Intelligence.
+        I enjoy building practical projects using Python, machine learning, and data analysis to solve real-world problems.
+      </p>
+
       <div class="hero-actions">
         <a class="btn btn-primary" href="#projects">See the projects</a>
         <a class="btn btn-ghost" href="#contact">Get in touch</a>
       </div>
+
     </div>
   </section>
+
 
   <!-- ============ ABOUT ============ -->
   <section id="about" class="section">
     <div class="wrap about-grid">
+
       <div class="about-photo">
         <div class="photo-frame placeholder-box">
           <p>Replace with a real professional photo</p>
         </div>
       </div>
+
       <div class="about-body">
+
         <p class="eyebrow-label">About</p>
+
         <p>
-          <!-- EDIT: short profile paragraph -->
-          I am pursuing a B.Tech in Computer Science with a specialization in Data Science and Artificial Intelligence. I enjoy learning how data, machine learning, and software can be used to solve practical problems. My project work includes machine learning, Python applications, and data-focused projects. I am building my skills toward a career in software, data, and AI.
+          I am pursuing a B.Tech in Computer Science with a specialization in Data Science and Artificial Intelligence.
+          I enjoy learning how data, machine learning, and software can be used to solve practical problems.
+          My project work includes machine learning, Python applications, and data-focused projects.
+          I am building my skills toward a career in software, data, and AI.
         </p>
+
         <dl class="about-facts">
+
           <div>
             <dt>Education</dt>
             <dd>B.Tech Computer Science (Data Science & AI), Shri Ramswaroop Memorial University, 2023–2027</dd>
           </div>
+
           <div>
             <dt>Interests</dt>
             <dd>Machine Learning, Data Analysis, Python, AI, Software Development, Cricket</dd>
           </div>
+
           <div>
             <dt>Direction</dt>
             <dd>Building practical software, data analysis, and AI/ML solutions.</dd>
           </div>
+
         </dl>
+
       </div>
     </div>
   </section>
 
+
   <!-- ============ PROJECTS ============ -->
   <section id="projects" class="section">
     <div class="wrap">
+
       <p class="eyebrow-label">Projects</p>
       <h2 class="section-title">Case studies</h2>
 
+
       <article class="project">
+
         <div class="project-media placeholder-box">
           <p>Replace with a real screenshot of Fake News Detection</p>
         </div>
+
         <div class="project-body">
+
           <h3>Fake News Detection</h3>
-          <p class="project-summary">A machine-learning project focused on detecting potentially fake news.</p>
+
+          <p class="project-summary">
+            A machine-learning project focused on detecting potentially fake news.
+          </p>
+
           <div class="project-detail">
-            <div><span class="label">Problem</span><p>The project addressed the challenge of identifying potentially fake or misleading news from textual information.</p></div>
-            <div><span class="label">Approach</span><p>I prepared and cleaned the text data, transformed the text into machine-learning features, trained a classification model, and evaluated its predictions.</p></div>
-            <div><span class="label">Technology</span><p>Python, Pandas, Scikit-learn, NLP</p></div>
-            <div><span class="label">Result</span><p>The project provided practical experience with text preprocessing, feature engineering, classification, and evaluating machine-learning models.</p></div>
+
+            <div>
+              <span class="label">Problem</span>
+              <p>
+                The project addressed the challenge of identifying potentially fake or misleading news from textual information.
+              </p>
+            </div>
+
+            <div>
+              <span class="label">Approach</span>
+              <p>
+                I prepared and cleaned the text data, transformed the text into machine-learning features,
+                trained a classification model, and evaluated its predictions.
+              </p>
+            </div>
+
+            <div>
+              <span class="label">Technology</span>
+              <p>Python, Pandas, Scikit-learn, NLP</p>
+            </div>
+
+            <div>
+              <span class="label">Result</span>
+              <p>
+                The project provided practical experience with text preprocessing,
+                feature engineering, classification, and evaluating machine-learning models.
+              </p>
+            </div>
+
           </div>
         </div>
       </article>
 
+
       <article class="project">
+
         <div class="project-media placeholder-box">
           <p>Replace with a real screenshot of Student Performance Prediction</p>
         </div>
+
         <div class="project-body">
+
           <h3>Student Performance Prediction</h3>
-          <p class="project-summary">A prediction project using student-related data to estimate performance.</p>
+
+          <p class="project-summary">
+            A prediction project using student-related data to estimate performance.
+          </p>
+
           <div class="project-detail">
-            <div><span class="label">Problem</span><p>The project focused on predicting student performance from student-related data to understand factors associated with academic outcomes.</p></div>
-            <div><span class="label">Approach</span><p>I cleaned and prepared the dataset, selected relevant features, trained a machine-learning model, and evaluated the predictions using standard evaluation metrics.</p></div>
-            <div><span class="label">Technology</span><p>Python, Pandas, NumPy, Scikit-learn, Matplotlib</p></div>
-            <div><span class="label">Result</span><p>The project demonstrated how machine learning can be applied to student data to identify patterns and support performance prediction.</p></div>
+
+            <div>
+              <span class="label">Problem</span>
+              <p>
+                The project focused on predicting student performance from student-related data
+                to understand factors associated with academic outcomes.
+              </p>
+            </div>
+
+            <div>
+              <span class="label">Approach</span>
+              <p>
+                I cleaned and prepared the dataset, selected relevant features,
+                trained a machine-learning model, and evaluated the predictions using standard evaluation metrics.
+              </p>
+            </div>
+
+            <div>
+              <span class="label">Technology</span>
+              <p>Python, Pandas, NumPy, Scikit-learn, Matplotlib</p>
+            </div>
+
+            <div>
+              <span class="label">Result</span>
+              <p>
+                The project demonstrated how machine learning can be applied to student data
+                to identify patterns and support performance prediction.
+              </p>
+            </div>
+
           </div>
         </div>
       </article>
 
+
       <article class="project">
+
         <div class="project-media placeholder-box">
           <p>Replace with a real screenshot of Hangman</p>
         </div>
+
         <div class="project-body">
+
           <h3>Hangman</h3>
-          <p class="project-summary">A Python project developed during the CodeAlpha internship.</p>
+
+          <p class="project-summary">
+            A Python project developed during the CodeAlpha internship.
+          </p>
+
           <div class="project-detail">
-            <div><span class="label">Problem</span><p>The task was to develop a playable Hangman word-guessing game in Python with a simple interactive game flow.</p></div>
-            <div><span class="label">Approach</span><p>I implemented word selection, user guesses, tracking of incorrect attempts, and win or loss conditions using Python.</p></div>
-            <div><span class="label">Technology</span><p>Python</p></div>
-            <div><span class="label">Result</span><p>Built a functional command-line Hangman game and strengthened my understanding of Python programming, loops, conditions, and user input.</p></div>
+
+            <div>
+              <span class="label">Problem</span>
+              <p>
+                The task was to develop a playable Hangman word-guessing game in Python
+                with a simple interactive game flow.
+              </p>
+            </div>
+
+            <div>
+              <span class="label">Approach</span>
+              <p>
+                I implemented word selection, user guesses, tracking of incorrect attempts,
+                and win or loss conditions using Python.
+              </p>
+            </div>
+
+            <div>
+              <span class="label">Technology</span>
+              <p>Python</p>
+            </div>
+
+            <div>
+              <span class="label">Result</span>
+              <p>
+                Built a functional command-line Hangman game and strengthened my understanding
+                of Python programming, loops, conditions, and user input.
+              </p>
+            </div>
+
           </div>
         </div>
       </article>
 
+
       <article class="project">
+
         <div class="project-media placeholder-box">
           <p>Replace with a real screenshot of the Chatbot</p>
         </div>
+
         <div class="project-body">
+
           <h3>Chatbot</h3>
-          <p class="project-summary">A Python-based chatbot project developed during the CodeAlpha internship.</p>
+
+          <p class="project-summary">
+            A Python-based chatbot project developed during the CodeAlpha internship.
+          </p>
+
           <div class="project-detail">
-            <div><span class="label">Problem</span><p>The project was designed to provide responses to user inputs through a simple conversational interface.</p></div>
-            <div><span class="label">Approach</span><p>I implemented a Python-based conversation flow using predefined responses and user-input handling.</p></div>
-            <div><span class="label">Technology</span><p>Python</p></div>
-            <div><span class="label">Result</span><p>Built a functional Python chatbot and gained practical experience with input processing, conditional logic, and conversational flow.</p></div>
+
+            <div>
+              <span class="label">Problem</span>
+              <p>
+                The project was designed to provide responses to user inputs through a simple conversational interface.
+              </p>
+            </div>
+
+            <div>
+              <span class="label">Approach</span>
+              <p>
+                I implemented a Python-based conversation flow using predefined responses
+                and user-input handling.
+              </p>
+            </div>
+
+            <div>
+              <span class="label">Technology</span>
+              <p>Python</p>
+            </div>
+
+            <div>
+              <span class="label">Result</span>
+              <p>
+                Built a functional Python chatbot and gained practical experience with input processing,
+                conditional logic, and conversational flow.
+              </p>
+            </div>
+
           </div>
         </div>
       </article>
 
+
       <article class="project">
+
         <div class="project-media placeholder-box">
           <p>Replace with a real screenshot of the E-commerce App</p>
         </div>
+
         <div class="project-body">
+
           <h3>E-commerce App</h3>
-          <p class="project-summary">Practical software project experience, presented here as a case study.</p>
+
+          <p class="project-summary">
+            Practical software project experience, presented here as a case study.
+          </p>
+
           <div class="project-detail">
-            <div><span class="label">Problem</span><p>The project focused on building an e-commerce application that provides a practical online shopping experience for users.</p></div>
-            <div><span class="label">Approach</span><p>I worked on the application structure and user-facing functionality, focusing on organizing products and creating a simple shopping experience.</p></div>
-            <div><span class="label">Technology</span><p>Python, Pandas, NumPy, Scikit-learn, Matplotlib</p></div>
-            <div><span class="label">Result</span><p>The project provided practical experience in application development, user-interface design, and structuring a real-world software project.</p></div>
+
+            <div>
+              <span class="label">Problem</span>
+              <p>
+                The project focused on building an e-commerce application
+                that provides a practical online shopping experience for users.
+              </p>
+            </div>
+
+            <div>
+              <span class="label">Approach</span>
+              <p>
+                I worked on the application structure and user-facing functionality,
+                focusing on organizing products and creating a simple shopping experience.
+              </p>
+            </div>
+
+            <div>
+              <span class="label">Technology</span>
+              <p>Python, Pandas, NumPy, Scikit-learn, Matplotlib</p>
+            </div>
+
+            <div>
+              <span class="label">Result</span>
+              <p>
+                The project provided practical experience in application development,
+                user-interface design, and structuring a real-world software project.
+              </p>
+            </div>
+
           </div>
         </div>
       </article>
@@ -174,11 +369,35 @@
     </div>
   </section>
 
+
+  <!-- ============ FUTURE POSTS / CAPSTONE ============ -->
+  <section id="posts" class="section">
+
+    <div class="wrap">
+
+      <p class="eyebrow-label">Future Work</p>
+
+      <h2 class="section-title">Posts & Capstone</h2>
+
+      <p>
+        This section is reserved for future learning posts, internship work,
+        and my final FlyRank AI capstone.
+      </p>
+
+    </div>
+
+  </section>
+
+
   <!-- ============ SKILLS ============ -->
   <section id="skills" class="section">
+
     <div class="wrap">
+
       <p class="eyebrow-label">Skills</p>
+
       <h2 class="section-title">Tools I work with</h2>
+
       <ul class="skill-list">
         <li>Python</li>
         <li>Java</li>
@@ -190,53 +409,127 @@
         <li>Machine Learning</li>
         <li>AI</li>
       </ul>
+
     </div>
+
   </section>
+
 
   <!-- ============ EXPERIENCE ============ -->
   <section id="experience" class="section">
+
     <div class="wrap">
+
       <p class="eyebrow-label">Experience</p>
+
       <h2 class="section-title">Practical learning</h2>
+
+
       <div class="experience-item">
+
         <div class="experience-head">
           <h3>CodeAlpha — Internship</h3>
           <span class="experience-meta">May 2026 – June 2026</span>
         </div>
-        <p>Completed a one-month Python internship at CodeAlpha, working on practical programming tasks and projects including Hangman and a Python chatbot. The internship strengthened my Python programming and problem-solving skills.</p>
+
+        <p>
+          Completed a one-month Python internship at CodeAlpha,
+          working on practical programming tasks and projects including Hangman
+          and a Python chatbot. The internship strengthened my Python programming
+          and problem-solving skills.
+        </p>
+
       </div>
+
+
       <div class="experience-item">
+
         <div class="experience-head">
           <h3>Project Experience</h3>
           <span class="experience-meta">May 2026 – June 2026</span>
         </div>
-        <p>Worked on practical software projects including an E-commerce App, applying programming and problem-solving skills to build and structure application features.</p>
+
+        <p>
+          Worked on practical software projects including an E-commerce App,
+          applying programming and problem-solving skills to build and structure application features.
+        </p>
+
       </div>
+
     </div>
+
   </section>
+
 
   <!-- ============ CONTACT ============ -->
   <section id="contact" class="section contact-section">
+
     <div class="wrap">
+
       <p class="eyebrow-label">Contact</p>
+
       <h2 class="section-title">Let's talk</h2>
-      <p class="contact-lead">I’m open to opportunities, collaborations, and projects related to software development, data analysis, and artificial intelligence.</p>
+
+      <p class="contact-lead">
+        I’m open to opportunities, collaborations, and projects related to
+        software development, data analysis, and artificial intelligence.
+      </p>
+
       <ul class="contact-list">
-        <li><a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></li>
-        <li><a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank" rel="noopener">LinkedIn — Himanshu-rai-prog</a></li>
-        <li><a href="https://github.com/Himanshu-rai-prog" target="_blank" rel="noopener">GitHub — Himanshu-rai-prog</a></li>
+
+        <li>
+          <a href="mailto:hr668011@gmail.com">
+            hr668011@gmail.com
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/himanshu-kumar-rai-69398b310/"
+             target="_blank"
+             rel="noopener">
+            LinkedIn — Himanshu Rai
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/Himanshu-rai-prog"
+             target="_blank"
+             rel="noopener">
+            GitHub — Himanshu-rai-prog
+          </a>
+        </li>
+
+        <li>
+          <a href="resume.pdf"
+             target="_blank"
+             rel="noopener">
+            CV — Download Resume
+          </a>
+        </li>
+
       </ul>
+
     </div>
+
   </section>
 
 </main>
 
+
 <footer class="site-footer">
+
   <div class="wrap">
-    <p>&copy; <span id="year"></span> Himanshu Rai</p>
+
+    <p>
+      &copy; <span id="year"></span> Himanshu Rai
+    </p>
+
   </div>
+
 </footer>
 
+
 <script src="script.js"></script>
+
 </body>
 </html>
